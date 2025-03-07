@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C46E0EB02CD0A521000707DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46E0E912CD0A51F000707DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46E0E982CD0A51F000707DD;
+			remoteInfo = InsurancePolicySystem;
+		};
+		C46E0EBA2CD0A521000707DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46E0E912CD0A51F000707DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46E0E982CD0A51F000707DD;
+			remoteInfo = InsurancePolicySystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C46E0E992CD0A51F000707DD /* InsurancePolicySystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsurancePolicySystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46E0EAF2CD0A521000707DD /* InsurancePolicySystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsurancePolicySystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46E0EB92CD0A521000707DD /* InsurancePolicySystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsurancePolicySystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C46E0EC12CD0A521000707DD /* Exceptions for "InsurancePolicySystem" folder in "InsurancePolicySystem" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C46E0E982CD0A51F000707DD /* InsurancePolicySystem */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C46E0E9B2CD0A51F000707DD /* InsurancePolicySystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C46E0EC12CD0A521000707DD /* Exceptions for "InsurancePolicySystem" folder in "InsurancePolicySystem" target */,
+			);
+			path = InsurancePolicySystem;
+			sourceTree = "<group>";
+		};
+		C46E0EB22CD0A521000707DD /* InsurancePolicySystemTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InsurancePolicySystemTests;
+			sourceTree = "<group>";
+		};
+		C46E0EBC2CD0A521000707DD /* InsurancePolicySystemUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InsurancePolicySystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46E0E962CD0A51F000707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EAC2CD0A521000707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EB62CD0A521000707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46E0E902CD0A51F000707DD = {
+			isa = PBXGroup;
+			children = (
+				C46E0E9B2CD0A51F000707DD /* InsurancePolicySystem */,
+				C46E0EB22CD0A521000707DD /* InsurancePolicySystemTests */,
+				C46E0EBC2CD0A521000707DD /* InsurancePolicySystemUITests */,
+				C46E0E9A2CD0A51F000707DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46E0E9A2CD0A51F000707DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46E0E992CD0A51F000707DD /* InsurancePolicySystem.app */,
+				C46E0EAF2CD0A521000707DD /* InsurancePolicySystemTests.xctest */,
+				C46E0EB92CD0A521000707DD /* InsurancePolicySystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46E0E982CD0A51F000707DD /* InsurancePolicySystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46E0EC22CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystem" */;
+			buildPhases = (
+				C46E0E952CD0A51F000707DD /* Sources */,
+				C46E0E962CD0A51F000707DD /* Frameworks */,
+				C46E0E972CD0A51F000707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C46E0E9B2CD0A51F000707DD /* InsurancePolicySystem */,
+			);
+			name = InsurancePolicySystem;
+			packageProductDependencies = (
+			);
+			productName = InsurancePolicySystem;
+			productReference = C46E0E992CD0A51F000707DD /* InsurancePolicySystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C46E0EAE2CD0A521000707DD /* InsurancePolicySystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46E0EC72CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystemTests" */;
+			buildPhases = (
+				C46E0EAB2CD0A521000707DD /* Sources */,
+				C46E0EAC2CD0A521000707DD /* Frameworks */,
+				C46E0EAD2CD0A521000707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46E0EB12CD0A521000707DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C46E0EB22CD0A521000707DD /* InsurancePolicySystemTests */,
+			);
+			name = InsurancePolicySystemTests;
+			packageProductDependencies = (
+			);
+			productName = InsurancePolicySystemTests;
+			productReference = C46E0EAF2CD0A521000707DD /* InsurancePolicySystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C46E0EB82CD0A521000707DD /* InsurancePolicySystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46E0ECA2CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystemUITests" */;
+			buildPhases = (
+				C46E0EB52CD0A521000707DD /* Sources */,
+				C46E0EB62CD0A521000707DD /* Frameworks */,
+				C46E0EB72CD0A521000707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46E0EBB2CD0A521000707DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C46E0EBC2CD0A521000707DD /* InsurancePolicySystemUITests */,
+			);
+			name = InsurancePolicySystemUITests;
+			packageProductDependencies = (
+			);
+			productName = InsurancePolicySystemUITests;
+			productReference = C46E0EB92CD0A521000707DD /* InsurancePolicySystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46E0E912CD0A51F000707DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C46E0E982CD0A51F000707DD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C46E0EAE2CD0A521000707DD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C46E0E982CD0A51F000707DD;
+					};
+					C46E0EB82CD0A521000707DD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C46E0E982CD0A51F000707DD;
+					};
+				};
+			};
+			buildConfigurationList = C46E0E942CD0A51F000707DD /* Build configuration list for PBXProject "InsurancePolicySystem" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C46E0E902CD0A51F000707DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C46E0E9A2CD0A51F000707DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46E0E982CD0A51F000707DD /* InsurancePolicySystem */,
+				C46E0EAE2CD0A521000707DD /* InsurancePolicySystemTests */,
+				C46E0EB82CD0A521000707DD /* InsurancePolicySystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46E0E972CD0A51F000707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EAD2CD0A521000707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EB72CD0A521000707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46E0E952CD0A51F000707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EAB2CD0A521000707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46E0EB52CD0A521000707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C46E0EB12CD0A521000707DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46E0E982CD0A51F000707DD /* InsurancePolicySystem */;
+			targetProxy = C46E0EB02CD0A521000707DD /* PBXContainerItemProxy */;
+		};
+		C46E0EBB2CD0A521000707DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46E0E982CD0A51F000707DD /* InsurancePolicySystem */;
+			targetProxy = C46E0EBA2CD0A521000707DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C46E0EC32CD0A521000707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsurancePolicySystem/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C46E0EC42CD0A521000707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsurancePolicySystem/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C46E0EC52CD0A521000707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C46E0EC62CD0A521000707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46E0EC82CD0A521000707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsurancePolicySystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsurancePolicySystem";
+			};
+			name = Debug;
+		};
+		C46E0EC92CD0A521000707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsurancePolicySystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsurancePolicySystem";
+			};
+			name = Release;
+		};
+		C46E0ECB2CD0A521000707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsurancePolicySystem;
+			};
+			name = Debug;
+		};
+		C46E0ECC2CD0A521000707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.InsurancePolicySystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsurancePolicySystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46E0E942CD0A51F000707DD /* Build configuration list for PBXProject "InsurancePolicySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46E0EC52CD0A521000707DD /* Debug */,
+				C46E0EC62CD0A521000707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46E0EC22CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46E0EC32CD0A521000707DD /* Debug */,
+				C46E0EC42CD0A521000707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46E0EC72CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46E0EC82CD0A521000707DD /* Debug */,
+				C46E0EC92CD0A521000707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46E0ECA2CD0A521000707DD /* Build configuration list for PBXNativeTarget "InsurancePolicySystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46E0ECB2CD0A521000707DD /* Debug */,
+				C46E0ECC2CD0A521000707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C46E0E912CD0A51F000707DD /* Project object */;
+}
